@@ -1,5 +1,7 @@
 # PANGEA Contracts
 
+> 📄 For the full project vision and technical specification, see the [PANGEA White Paper](https://github.com/Pangean1/pangea-backend/blob/main/docs/PANGEA_WhitePaper_Technical_v4.0.docx)
+
 Smart contracts for **PANGEA** — a non-profit peer-to-peer humanitarian donation platform built on Polygon PoS. Donors send stablecoins directly to vetted campaign recipients with zero platform fees, full on-chain transparency, and immutable audit trails.
 
 ---
