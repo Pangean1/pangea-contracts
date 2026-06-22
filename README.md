@@ -27,7 +27,6 @@ Smart contracts for **PANGEA** — a non-profit peer-to-peer humanitarian donati
 - [Security Considerations](#security-considerations)
 - [Tech Stack](#tech-stack)
 - [Related Repositories](#related-repositories)
-- [License](#license)
 
 ---
 
@@ -177,8 +176,8 @@ event DonationSent(
 ### Installation
 
 ```bash
-git clone https://github.com/pangea-org/contracts.git
-cd contracts
+git clone https://github.com/Pangean1/pangea-contracts.git
+cd pangea-contracts
 npm install
 cp .env.example .env   # then fill in your values (see below)
 ```
@@ -231,7 +230,7 @@ npm run deploy:amoy
 Or run the deploy script directly:
 
 ```bash
-npx hardhat run scripts/deploy/deployLock.js --network amoy
+npx hardhat run scripts/deploy/deployPangeaDonation.js --network amoy
 ```
 
 ### Verify on Polygonscan
@@ -290,10 +289,5 @@ Hardhat and localhost share the same chain ID (31337) and are used for local dev
 
 ## Related Repositories
 
-- **pangea-backend** — API server, event indexer, and campaign management backend: [github.com/pangea-org/pangea-backend](https://github.com/pangea-org/pangea-backend)
+- **pangea-backend** — API server, event indexer, and campaign management backend: [github.com/Pangean1/pangea-backend](https://github.com/Pangean1/pangea-backend)
 
----
-
-## License
-
-[MIT](./LICENSE)
