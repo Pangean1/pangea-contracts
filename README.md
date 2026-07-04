@@ -293,6 +293,14 @@ Hardhat and localhost share the same chain ID (31337) and are used for local dev
 
 ---
 
+## Roadmap
+
+### Production Stage
+
+Changes intentionally deferred until PANGEA reaches its Production stage (post-mainnet, once real institutional/grant engagement exists) — including a planned change to how `campaignId` is indexed in the `DonationSent` event above — are tracked in [`PRODUCTION_STAGE_CHANGES.md`](https://github.com/Pangean1/pangea-backend/blob/main/docs/PRODUCTION_STAGE_CHANGES.md) in the pangea-backend repo.
+
+---
+
 ## License
 
 This project is released under the **MIT License**.
