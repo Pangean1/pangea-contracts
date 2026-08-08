@@ -2,7 +2,13 @@
 
 > 📄 For the full project vision and technical specification, see the [PANGEA White Paper](https://github.com/Pangean1/pangea-backend/blob/main/docs/WHITEPAPER.md)
 
+> Non-profit peer-to-peer humanitarian donation platform on **Polygon PoS**.
+
 Smart contracts for **PANGEA** — a non-profit peer-to-peer humanitarian donation platform built on Polygon PoS. Donors send stablecoins directly to vetted campaign recipients with zero platform fees, full on-chain transparency, and immutable audit trails.
+
+- Frontend UI: [pangea-frontend](https://github.com/Pangean1/pangea-frontend)
+- Backend API: [pangea-backend](https://github.com/Pangean1/pangea-backend)
+- Network: Polygon Amoy (testnet) → Polygon PoS mainnet
 
 ---
 
@@ -26,7 +32,9 @@ Smart contracts for **PANGEA** — a non-profit peer-to-peer humanitarian donati
 - [Network Configuration](#network-configuration)
 - [Security Considerations](#security-considerations)
 - [Tech Stack](#tech-stack)
-- [Related Repositories](#related-repositories)
+- [Roadmap](#roadmap)
+  - [Production Stage](#production-stage)
+- [License](#license)
 
 ---
 
@@ -284,12 +292,6 @@ Hardhat and localhost share the same chain ID (31337) and are used for local dev
 | Test runner | Mocha + Chai | (via hardhat-toolbox) |
 | Blockchain | Polygon PoS (Amoy testnet / Mainnet) | — |
 | Contract verification | Polygonscan (hardhat-verify) | (via hardhat-toolbox) |
-
----
-
-## Related Repositories
-
-- **pangea-backend** — API server, event indexer, and campaign management backend: [github.com/Pangean1/pangea-backend](https://github.com/Pangean1/pangea-backend)
 
 ---
 
