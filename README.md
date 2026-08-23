@@ -2,9 +2,9 @@
 
 > 📄 For the full project vision and technical specification, see the [PANGEA White Paper](https://github.com/Pangean1/pangea-backend/blob/main/docs/WHITEPAPER.md)
 
-> Non-profit peer-to-peer humanitarian donation platform on **Polygon PoS**.
+> PANGEA: non-profit peer-to-peer on-chain humanitarian donation platform.
 
-Smart contracts for **PANGEA** — a non-profit peer-to-peer humanitarian donation platform built on Polygon PoS. Donors send stablecoins directly to vetted campaign recipients with zero platform fees, full on-chain transparency, and immutable audit trails.
+PANGEA lets donors send donations directly to verified humanitarian campaigns with zero platform fees, full on-chain transparency, and immutable audit trails. This repository is the smart contract.
 
 - Frontend UI: [pangea-frontend](https://github.com/Pangean1/pangea-frontend)
 - Backend API: [pangea-backend](https://github.com/Pangean1/pangea-backend)
@@ -229,7 +229,7 @@ npm test
 
 ### Deploy to Polygon Amoy Testnet
 
-Ensure your deployer wallet has Amoy MATIC for gas (faucet: [faucet.polygon.technology](https://faucet.polygon.technology)).
+Ensure your deployer wallet has Amoy POL (MATIC) for gas (faucet: [faucet.polygon.technology](https://faucet.polygon.technology)).
 
 ```bash
 npm run deploy:amoy
