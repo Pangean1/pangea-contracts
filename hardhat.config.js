@@ -2,7 +2,7 @@ require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "0x" + "0".repeat(64);
-const POLYGON_AMOY_RPC_URL = process.env.POLYGON_AMOY_RPC_URL || "https://rpc-amoy.polygon.technology";
+const POLYGON_AMOY_RPC_URL = process.env.POLYGON_AMOY_RPC_URL || "https://polygon-amoy-bor-rpc.publicnode.com";
 const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY || "";
 
 /** @type import('hardhat/config').HardhatUserConfig */
