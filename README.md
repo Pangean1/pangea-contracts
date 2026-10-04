@@ -17,7 +17,7 @@ PANGEA lets donors send donations directly to verified humanitarian campaigns wi
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [PangeaDonation.sol](#pangea-donationsol)
+- [PangeaDonation.sol](#pangeadonationsol)
   - [Features](#features)
   - [Key Functions](#key-functions)
   - [DonationSent Event](#donationsent-event)
@@ -211,9 +211,9 @@ Example `.env.example`:
 PRIVATE_KEY=your_private_key_here
 
 # Polygon Amoy RPC URL
-# Default: https://rpc-amoy.polygon.technology
+# Default: https://polygon-amoy-bor-rpc.publicnode.com
 # Or use Alchemy/Infura: https://polygon-amoy.g.alchemy.com/v2/YOUR_API_KEY
-POLYGON_AMOY_RPC_URL=https://rpc-amoy.polygon.technology
+POLYGON_AMOY_RPC_URL=https://polygon-amoy-bor-rpc.publicnode.com
 
 # PolygonScan API key for contract verification
 POLYGONSCAN_API_KEY=your_polygonscan_api_key_here
@@ -264,8 +264,8 @@ npx hardhat verify --network amoy <DEPLOYED_ADDRESS> <OWNER_ADDRESS>
 | Network | Chain ID | RPC | Explorer |
 |---|---|---|---|
 | Hardhat (local) | 31337 | `http://127.0.0.1:8545` | — |
-| Polygon Amoy (testnet) | 80002 | `https://rpc-amoy.polygon.technology` | [amoy.polygonscan.com](https://amoy.polygonscan.com) |
-| Polygon Mainnet | 137 | `https://polygon-rpc.com` | [polygonscan.com](https://polygonscan.com) |
+| Polygon Amoy (testnet) | 80002 | `https://polygon-amoy-bor-rpc.publicnode.com` | [amoy.polygonscan.com](https://amoy.polygonscan.com) |
+| Polygon Mainnet | 137 | `https://polygon-bor-rpc.publicnode.com` | [polygonscan.com](https://polygonscan.com) |
 
 Hardhat and localhost share the same chain ID (31337) and are used for local development and testing.
 
